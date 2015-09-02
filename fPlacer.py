@@ -16,6 +16,7 @@ def main():
     for x in answer:
         print(x, end=" ")
 
+
 def fibo(count):
     a = 0
     b = 1
