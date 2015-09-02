@@ -1,7 +1,7 @@
 __author__ = 'benjamin_sanchez'
-import time
+import time  # needed for timing
 
-start = time.time()
+start = time.time()  # timing
 print("We're going to calculate 1000 Fibonacci numbers now...")
 a = 0
 b = 1
@@ -13,6 +13,6 @@ for x in range(1000):
     answer.append(a)
     b += a
     answer.append(b)
-end = time.time()
+end = time.time()  #t iming
 print("It took this long to calculate 1000 iterations: ", (end - start))
 print(answer)
