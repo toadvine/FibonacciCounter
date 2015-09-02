@@ -13,7 +13,8 @@ def main():
             if x == bNum:
                 answer.append(count)
             count += 1
-
+    for x in answer:
+        print(x, end=" ")
 
 def fibo(count):
     a = 0
